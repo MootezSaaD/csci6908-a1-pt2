@@ -4,8 +4,10 @@ The following repository contains the replication package to train an LSTM model
 - `data`: contains training, test and validation data in form of pickle files. It also contains vocab dictionary and the genres mapping. They can be downloaded from the following Google Drive folder: https://drive.google.com/drive/folders/1SaBaq1KmAvj9K-4a9vvsdxzp8iOniRYL?usp=sharing
 - `logs`: Contains Tensorboard logs from my experiment.
 - `model2`: This package contains the model implementation, data classes and utility functions for I/O operations and training.
+- `checkpoint`: Contains the model's weights after training.
 - `Data_Preparation.ipynb`: Jupyter notebook used to generate the data provided in the Google Drive folder.
-- `train_attn.py` Main script that contains the logging, hyperparemeters values, and training/testing loops.
+- `train_attn.py` Main script that contains the logging, hyperparemeters values, and training/testing loops. 
+- `M2Inference.ipynb`: Jupyter notebook used for inference (text generation).
 
 
 ### Training
